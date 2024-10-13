@@ -5,7 +5,8 @@
     "server": "npm run start --prefix backend",
     "client": "npm run build --prefix frontend",
     "build": "cd frontend && npm install && npm run build", 
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "nodemon index.js",
+    "start": "nnodemon index.js"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
