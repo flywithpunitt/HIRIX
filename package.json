@@ -4,9 +4,9 @@
   "scripts": {
     "server": "npm run start --prefix backend",
     "client": "npm run build --prefix frontend",
-    "build": "cd frontend && npm install && npm run build", 
+    "build": "cd frontend && npm install && npm run build",
     "dev": "nodemon index.js",
-    "start": "nnodemon index.js"
+    "start": "nodemon index.js"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
