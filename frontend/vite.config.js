@@ -13,7 +13,7 @@ export default defineConfig({
     proxy: {
       // Proxy API requests to your backend
       "/api": {
-        target: "http://localhost:5000", // Backend server
+        target: "https://job-hunt-03qb.onrender.com", // Backend server
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ""),
       },
